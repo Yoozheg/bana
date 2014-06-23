@@ -13,9 +13,26 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 section{clear:both}
 main{margin:0 auto;width:960px;position:relative}
 
-header{}
+header{background:url('img/fon1.jpg') center top no-repeat;color:white;height:814px;}
+header main{text-align:right;}
+header main.left{float:none;text-align:left;}
+header h2{font:bold 28px "Trebuchet MS";background-color:#2d2d2d;position:relative;width:auto;margin: 0 10px 0 0;padding: 0 10px;float:right;clear:both;}
+header h2.tel{font:25px "Trebuchet MS";position:relative;float:right;clear:both;}
+header button.button{position:relative;margin: 10px 10px 20px 0;width:180px;height:50px;float:right;clear:both;background-color:#fbd63a;border:none;outline:none;cursor:pointer;font:14px "Trebuchet MS";text-transform:uppercase;}
+header h1{font:bold 70px "Trebuchet MS";background-color:#2d2d2d;position:relative;margin: 0 10px 0 0;float:right;clear:both;z-index:10;padding: 0 10px;}
+header h3{font:60px "Trebuchet MS";background-color:#2d2d2d;position:relative;margin: -10px 10px 0 0;float:right;clear:both;}
+header p{font:bold 30px "Trebuchet MS";clear:both;background-color:#2d2d2d;float:left;clear:both;padding: 0 10px;position:relative}
+header p.line1{margin: 150px 0 0 50px;z-index:15;}
+header p.line2{margin: -5px 0 0 50px;z-index:12;}
+header p.line3{margin: -5px 0 0 50px;z-index:10;}
+header p span{color:#fbd63a}
+header form{display:inline-block;margin: 30px 0 0 50px;float:left;clear:both;}
+header input{display:block;width:270px;height:10px;padding:15px;color:#9fa4b0;font:16px 'Trebuchet MS';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
+header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet MS";text-transform:uppercase;background:#2d2d2d;border:none;outline:none;cursor:pointer;}
 
-#welcome{}
+#welcome{background:url('img/fon2.jpg') center top no-repeat;color:white;height:845px;}
+#welcome h3{font:bold 40px "Trebuchet MS";padding-top:150px;margin:0 0 20px 496px}
+#welcome p{background-color:white;color:black;font:19px "Trebuchet MS";width:407px;padding:15px;margin-left:496px;}
 
 #why{}
 
@@ -25,7 +42,15 @@ header{}
 
 #r1{}
 #r2{}
-.request{}
+.request{background-color:#f6662f;color:white;padding:60px 0;}
+.request main{text-align:center;}
+.request h2{font:50px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:60px;}
+.request p{font:29px/29px 'Kelson Sans Ru','Trebuchet MS';text-transform:uppercase;margin-bottom:40px;}
+.request form{}
+.request input{display:inline-block;width:282px;height:25px;padding:5px;color:#9fa4b0;font:16px "Trebuchet MS";outline:none;border:none;margin:0 15px 25px 15px}
+.request button{display:block;position:relative;margin:5px auto;width:270px;height:50px;color:black;font:bold 20px "Trebuchet MS";text-transform:uppercase;background:#f4d31e;border-radius:5px;box-shadow:0 5px #d0b303;border:none;outline:none;cursor:pointer;}
+.request button:active{box-shadow:none;margin-top:10px;margin-bottom:0;}
+#r2 h2{font-size:40px !important;}
 
 #reviews{}
 
@@ -49,7 +74,7 @@ header{}
 
 #map{}
 
-footer{}
+footer{background:url('img/map.jpg') center top no-repeat;height:513px;}
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
 #splash main{text-align:center;top:150px}
