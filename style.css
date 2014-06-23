@@ -29,7 +29,23 @@ header{}
 
 #reviews{}
 
-#abonement{}
+#a1{background:url(img/fon5.jpg)no-repeat center;height:859px;}
+#a1 h2{position:absolute;top:-10px;left:223px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#a1 div{float:right;width:410px;height:734px;background:white;margin-top:60px}
+#a1 div ol{list-style:none;padding:100px 0px 40px 30px;font:bold 18px "Trebuchet MS"}
+#a1 div ol li{padding:8px 0}
+#a1 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
+#a1 div p{font:16px "Trebuchet MS";padding:10px 0 10px 30px}
+#a1 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
+ 
+#a2{background:url(img/fon6.jpg)no-repeat center;height:859px;}
+#a2 h2{position:absolute;top:-10px;left:185px;font:bold 40px "Trebuchet MS";text-transform:uppercase;margin:95px 35px 70px 50px;color:#ffffff;background:#2d2d2d;display:inline-block;text-align:center;padding:5px 5px} 
+#a2 div{float:left;width:410px;height:734px;background:white;margin-top:60px}
+#a2 div ol{list-style:none;padding:100px 0px 35px 30px;font:bold 18px "Trebuchet MS"}
+#a2 div ol li{padding:8px 0}
+#a2 div h3{font:26px "Trebuchet MS";background:#f8bb24;display:inline-block;padding:5px 10px;margin-left:30px;margin-bottom:5px;}
+#a2 div p{font:16px "Trebuchet MS";padding:10px 0 9px 30px}
+#a2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
 
 #map{}
 
