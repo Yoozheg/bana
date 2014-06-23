@@ -13,7 +13,7 @@ header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 section{clear:both}
 main{margin:0 auto;width:960px;position:relative}
 
-header{background:url('img/fon1.jpg') center top no-repeat;color:white;font-weight:bold;height:814px;}
+header{background:url('img/fon1.jpg') center top no-repeat;color:white;height:814px;}
 header main{text-align:right;}
 header main.left{float:none;text-align:left;}
 header h2{font:bold 28px "Trebuchet MS";background-color:#2d2d2d;position:relative;width:auto;margin: 0 10px 0 0;padding: 0 10px;float:right;clear:both;}
@@ -30,7 +30,9 @@ header form{display:inline-block;margin: 30px 0 0 50px;float:left;clear:both;}
 header input{display:block;width:270px;height:10px;padding:15px;color:#9fa4b0;font:16px 'Trebuchet MS';margin-bottom:5px;outline:none;border:none;margin-bottom:15px;}
 header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet MS";text-transform:uppercase;background:#2d2d2d;border:none;outline:none;cursor:pointer;}
 
-#welcome{}
+#welcome{background:url('img/fon2.jpg') center top no-repeat;color:white;height:845px;}
+#welcome h3{font:bold 40px "Trebuchet MS";padding-top:150px;margin:0 0 20px 496px}
+#welcome p{background-color:white;color:black;font:19px "Trebuchet MS";width:407px;padding:15px;margin-left:496px;}
 
 #why{}
 
