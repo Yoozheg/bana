@@ -89,7 +89,7 @@ footer h3{padding-top:15px;}
 footer h4{padding-top:27px;}
 footer span{color:#fdd81e}
 
-#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
+#splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none;z-index:20;}
 #splash main{text-align:center;top:150px}
 #splash p{color:white;text-align:center}
 #splash form{margin:0 auto 0;position:static}
