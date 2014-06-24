@@ -78,9 +78,16 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #a2 div p{font:16px "Trebuchet MS";padding:10px 0 9px 30px}
 #a2 div button{margin-left:30px;margin-top:5px;width:190px;height:50px;background:#2d2d2d;text-transform:uppercase;color:white;font:15px "Trebuchet MS";border:none;cursor:pointer;}
 
-#map{}
+#map{background:url('img/map.jpg') center top no-repeat;height:513px;}
 
-footer{background:url('img/map.jpg') center top no-repeat;height:513px;}
+footer{color:white;background:url('img/fon7.jpg') center top no-repeat;height:331px;}
+footer main{text-align:center;}
+footer p, footer h4{font:normal 16px "Trebuchet MS";}
+footer h2, footer h3{font:bold 28px "Trebuchet MS";}
+footer h2{padding-top:105px;}
+footer h3{padding-top:15px;}
+footer h4{padding-top:27px;}
+footer span{color:#fdd81e}
 
 #splash{position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.8);color:white;text-shadow:0 0 1px #666;display:none}
 #splash main{text-align:center;top:150px}
