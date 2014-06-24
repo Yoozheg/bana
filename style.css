@@ -1,5 +1,6 @@
 @charset "utf-8";
 *{padding:0;margin:0}
+@font-face{font-family:"Kelson Sans RU Regular"; src:url(fonts/kelson_sans_regular_ru.ttf)}
 body{color:#000;background:#fff;font:16px "Trebuchet MS",Calibri,sans-serif;min-width:1001px}
 section,nav,footer,header{min-width:1001px}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
@@ -34,7 +35,12 @@ header form button{width:170px;height:40px;color:white;font:bold 14px "Trebuchet
 #welcome h3{font:bold 40px "Trebuchet MS";padding-top:150px;margin:0 0 20px 496px}
 #welcome p{background-color:white;color:black;font:19px "Trebuchet MS";width:407px;padding:15px;margin-left:496px;}
 
-#why{}
+#why{background:url(img/fon3.jpg) no-repeat center;height:681px}
+#why h2{font:37px "Kelson Sans RU Regular";text-transform:uppercase;text-align:center;color:white;padding-top:85px}
+#why ol{list-style:none;margin-top:45px;}
+#why ol li{width:400px;position:relative;display:inline-block;margin:12px 35px;font:16px "Trebuchet MS";color:white;}
+#why ol li strong{color:#f7bb23;font:55px "Verdana";}
+#why ol li span{color:#f7bb23;}
 
 #ideal{}
 
